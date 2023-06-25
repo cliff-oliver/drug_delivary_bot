@@ -1,0 +1,26 @@
+[0.506s] Invoking command in '/home/cliff/dev_ws/build/serial_motor_demo': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cliff/dev_ws/build/serial_motor_demo/prefix_override:/home/cliff/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/cliff/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cliff/dev_ws/build/serial_motor_demo/build --no-deps install_data
+[0.656s] running develop
+[0.743s] running egg_info
+[0.743s] creating serial_motor_demo.egg-info
+[0.743s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.743s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.744s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.744s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.744s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.744s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.768s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.768s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.791s] running build_ext
+[0.791s] Creating /home/cliff/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/site.py
+[0.793s] Creating /home/cliff/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[0.793s] Installing driver script to /home/cliff/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.793s] Installing gui script to /home/cliff/dev_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.793s] 
+[0.793s] Installed /home/cliff/dev_ws/build/serial_motor_demo
+[0.793s] running install_data
+[0.794s] creating /home/cliff/dev_ws/install/serial_motor_demo/share/ament_index
+[0.794s] creating /home/cliff/dev_ws/install/serial_motor_demo/share/ament_index/resource_index
+[0.794s] creating /home/cliff/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.794s] copying resource/serial_motor_demo -> /home/cliff/dev_ws/install/serial_motor_demo/share/ament_index/resource_index/packages
+[0.794s] copying package.xml -> /home/cliff/dev_ws/install/serial_motor_demo/share/serial_motor_demo
+[0.816s] Invoked command in '/home/cliff/dev_ws/build/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cliff/dev_ws/build/serial_motor_demo/prefix_override:/home/cliff/dev_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/cliff/dev_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cliff/dev_ws/build/serial_motor_demo/build --no-deps install_data

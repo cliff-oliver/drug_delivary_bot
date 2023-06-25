@@ -1,0 +1,87 @@
+[0.032s] Invoking command in '/home/cliff/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cliff/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cliff/dev_ws/install/serial
+[0.202s] -- The C compiler identification is GNU 9.4.0
+[0.202s] -- The CXX compiler identification is GNU 9.4.0
+[0.202s] -- Check for working C compiler: /usr/bin/cc
+[0.202s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.202s] -- Detecting C compiler ABI info
+[0.215s] -- Detecting C compiler ABI info - done
+[0.223s] -- Detecting C compile features
+[0.223s] -- Detecting C compile features - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++
+[0.278s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.279s] -- Detecting CXX compiler ABI info
+[0.335s] -- Detecting CXX compiler ABI info - done
+[0.343s] -- Detecting CXX compile features
+[0.343s] -- Detecting CXX compile features - done
+[0.344s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.360s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.361s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.486s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.513s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.534s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.540s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.544s] -- Looking for pthread.h
+[0.595s] -- Looking for pthread.h - found
+[0.595s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.645s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.645s] -- Check if compiler accepts -pthread
+[0.694s] -- Check if compiler accepts -pthread - yes
+[0.695s] -- Found Threads: TRUE  
+[0.746s] -- Configuring done
+[0.755s] -- Generating done
+[0.756s] -- Build files have been written to: /home/cliff/dev_ws/build/serial
+[0.759s] Invoked command in '/home/cliff/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cliff/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cliff/dev_ws/install/serial
+[0.761s] Invoking command in '/home/cliff/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cliff/dev_ws/build/serial -- -j16 -l16
+[0.786s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.786s] [35m[1mScanning dependencies of target gtest[0m
+[0.786s] [35m[1mScanning dependencies of target serial[0m
+[0.797s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.797s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.798s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.822s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.824s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.369s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.374s] [ 50%] [32m[1mLinking CXX static library libserial.a[0m
+[1.389s] [ 50%] Built target gtest_main
+[1.397s] [ 50%] Built target serial
+[1.404s] [35m[1mScanning dependencies of target serial_example[0m
+[1.411s] [ 57%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[1.648s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[1.725s] [ 64%] Built target serial_example
+[4.325s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.100s] [ 71%] Built target gtest
+[5.106s] [35m[1mScanning dependencies of target serial-test[0m
+[5.107s] [35m[1mScanning dependencies of target serial-test-timer[0m
+[5.118s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[5.359s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[6.376s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[6.841s] [ 92%] Built target serial-test-timer
+[7.356s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[7.606s] [100%] Built target serial-test
+[7.877s] Invoked command in '/home/cliff/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cliff/dev_ws/build/serial -- -j16 -l16
+[8.045s] Invoking command in '/home/cliff/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cliff/dev_ws/build/serial
+[8.052s] -- Install configuration: ""
+[8.053s] -- Execute custom install script
+[8.054s] -- Symlinking: /home/cliff/dev_ws/install/serial/lib/libserial.a
+[8.061s] -- Symlinking: /home/cliff/dev_ws/install/serial/include/serial/serial.h
+[8.066s] -- Symlinking: /home/cliff/dev_ws/install/serial/include/serial/v8stdint.h
+[8.071s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/environment/library_path.sh
+[8.077s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[8.084s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[8.090s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[8.096s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[8.101s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[8.106s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/environment/path.sh
+[8.112s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/environment/path.dsv
+[8.117s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/local_setup.bash
+[8.122s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/local_setup.sh
+[8.127s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/local_setup.zsh
+[8.132s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/local_setup.dsv
+[8.137s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/package.dsv
+[8.143s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[8.150s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.155s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[8.160s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[8.165s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[8.171s] -- Symlinking: /home/cliff/dev_ws/install/serial/share/serial/package.xml
+[8.180s] Invoked command in '/home/cliff/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cliff/dev_ws/build/serial

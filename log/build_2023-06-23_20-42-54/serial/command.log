@@ -1,0 +1,6 @@
+Invoking command in '/home/cliff/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cliff/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cliff/dev_ws/install/serial
+Invoked command in '/home/cliff/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cliff/dev_ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cliff/dev_ws/install/serial
+Invoking command in '/home/cliff/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cliff/dev_ws/build/serial -- -j16 -l16
+Invoked command in '/home/cliff/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cliff/dev_ws/build/serial -- -j16 -l16
+Invoking command in '/home/cliff/dev_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cliff/dev_ws/build/serial
+Invoked command in '/home/cliff/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cliff/dev_ws/build/serial

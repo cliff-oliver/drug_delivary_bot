@@ -1,0 +1,86 @@
+[0.011s] Invoking command in '/home/cliff/dev_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cliff/dev_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cliff/dev_ws/install/diffdrive_arduino
+[0.050s] -- The C compiler identification is GNU 9.4.0
+[0.089s] -- The CXX compiler identification is GNU 9.4.0
+[0.093s] -- Check for working C compiler: /usr/bin/cc
+[0.262s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.263s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.322s] -- Detecting C compile features
+[0.324s] -- Detecting C compile features - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.382s] -- Detecting CXX compiler ABI info
+[0.438s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Detecting CXX compile features
+[0.448s] -- Detecting CXX compile features - done
+[0.450s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.469s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.607s] -- Found serial: 1.2.1 (/home/cliff/dev_ws/install/serial/share/serial/cmake)
+[0.609s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[0.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.638s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.690s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.710s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.765s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.151s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[1.196s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.214s] -- Looking for pthread.h
+[1.319s] -- Looking for pthread.h - found
+[1.319s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.372s] -- Looking for pthread_create in pthreads
+[1.413s] -- Looking for pthread_create in pthreads - not found
+[1.413s] -- Looking for pthread_create in pthread
+[1.463s] -- Looking for pthread_create in pthread - found
+[1.464s] -- Found Threads: TRUE  
+[1.906s] -- Configuring done
+[1.933s] -- Generating done
+[1.934s] -- Build files have been written to: /home/cliff/dev_ws/build/diffdrive_arduino
+[1.941s] Invoked command in '/home/cliff/dev_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/cliff/dev_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cliff/dev_ws/install/diffdrive_arduino
+[1.943s] Invoking command in '/home/cliff/dev_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cliff/dev_ws/build/diffdrive_arduino -- -j16 -l16
+[1.973s] [35m[1mScanning dependencies of target fake_robot[0m
+[1.973s] [35m[1mScanning dependencies of target diffdrive_arduino[0m
+[1.998s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[1.999s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[2.000s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[2.000s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[2.002s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[3.891s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[3.943s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[4.010s] [100%] Built target fake_robot
+[4.063s] [100%] Built target diffdrive_arduino
+[4.072s] Invoked command in '/home/cliff/dev_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/cliff/dev_ws/build/diffdrive_arduino -- -j16 -l16
+[4.094s] Invoking command in '/home/cliff/dev_ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cliff/dev_ws/build/diffdrive_arduino
+[4.100s] -- Install configuration: ""
+[4.100s] -- Execute custom install script
+[4.100s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[4.107s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[4.113s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[4.122s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[4.129s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[4.135s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[4.140s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[4.146s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[4.151s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[4.157s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[4.163s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[4.169s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[4.174s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[4.181s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[4.188s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[4.195s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[4.201s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[4.208s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[4.214s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[4.220s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[4.225s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[4.231s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[4.237s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[4.243s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.249s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[4.255s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[4.261s] -- Symlinking: /home/cliff/dev_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[4.271s] Invoked command in '/home/cliff/dev_ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/cliff/dev_ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cliff/dev_ws/install/serial:/opt/ros/foxy LD_LIBRARY_PATH=/home/cliff/dev_ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/cliff/dev_ws/build/diffdrive_arduino
